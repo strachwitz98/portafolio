@@ -1,0 +1,255 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2c262c;     
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+/*inicio seccion 1*/
+.seccion-1{
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg,#141314,#a80c0c);
+    padding-top: 2em;
+
+}
+.header{
+    background: linear-gradient(90deg,#777477,#a80c0c);
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+.img{
+    
+    width: 25%;
+    height: 100%;
+
+}
+.menu{
+    
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color:aliceblue;
+    padding:1em 2em;
+}
+.menu a:hover{
+    background-color: rgb(177, 17, 17);
+}
+/*finaliza seccion 1*/
+
+/*empieza seccion 2*/
+.seccion-2{
+    width: 100%;
+    height: calc(100vh- 20em);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+.s2-textos{
+    background-color: #504e50;
+    width: 80%;
+    height: 25%;
+
+}
+.s2-img{
+    
+    width: 80%;
+    height:75%;
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    color: #530c0c;
+
+}
+.s2-textos hr {
+    width: 10%;
+    height: 0.2em;
+    border: none;
+    border-radius: 1em;
+    background: linear-gradient(90deg,#777477,#a80c0c);
+    margin: 1em auto;
+
+}
+.s2-textos p{
+    font-size: 1.25em;
+}
+.s2-contenido{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+.contenido-img{
+   
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.contenido-img img{
+    object-fit: cover;
+    width:  290px;
+}
+.contenido-texto{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0;
+}
+.contenido-texto h2{
+    font-size: 1.25em;
+    color: #5e1818;
+
+}
+.contenido-texto p{
+    font-size: 1.25em;
+    color: #f1f3ee;
+    margin: 1em 0;
+    text-align: center;
+
+}
+.contenido-texto a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #441903;
+    width: 50px;
+    padding: 0.5em 0;
+    border: none;
+    border-radius: 0.32em;
+    text-align: center;
+
+}
+
+/*finaliza seccion 2*/
+
+
+/*empieza seccion 3*/
+.seccion-3{
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg,#777477,#a80c0c);
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    align-items: center;
+  
+}
+.seccion-3 hr{
+    background: linear-gradient(90deg,#9824b0,#ff5500);
+    width: 100%;
+    height: 5%;
+    border: none;
+}
+.s3-contenido{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.s3-logo{
+    width: 50%;
+    
+}
+.s3-logo img{
+    object-fit: cover;
+      height: 100px;
+
+}
+
+.s3-textos{
+    width: 30%;
+    
+}
+.s3-textos h3{
+        font-size: 1.1em;
+        color: aliceblue;
+        margin: 0.25em;
+    
+}
+.s3-textos p{
+    font-size: 0.9em;
+    color: aliceblue;
+    
+}
+.s3-textos a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    border-top: rgb(138, 135, 135) solid 0.0725px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+    padding: 0 10%;
+}
+.autor{
+color: aliceblue;
+text-decoration: none;
+margin: 0.25em;
+}
+.politicas{
+    color: aliceblue;
+text-decoration: none;
+margin: 5em;
+
+}
+
+
+/*finaliza seccion 3*/
+/*#check{
+    display: none;
+}
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none ;
+
+}
+empieza */
